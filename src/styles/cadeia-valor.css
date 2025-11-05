@@ -90,7 +90,7 @@
 }
 
 .cadeia-valor-header h1 {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-dark);
@@ -198,7 +198,7 @@
 .stakeholder-title {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 50%, #198754 100%);
+    background: linear-gradient(0deg, #0d6efd 0%, #fd7e14 50%, #198754 100%);
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -363,6 +363,10 @@
 
 .box-lighter-green { 
     background: var(--green-lighter) !important; 
+}
+
+.box-darker-orange { 
+    background: #e65100 !important; 
 }
 
 .linear-flow {

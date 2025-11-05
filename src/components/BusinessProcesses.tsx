@@ -14,11 +14,11 @@ const BusinessProcesses: React.FC<BusinessProcessesProps> = ({ onProcessClick })
         Processos de Negócio
       </div>
       <div className="linear-flow flow-fill-width">
-        <div className="process-box" data-process-id="ciclo-leads"
+        <div className="process-box box-darker-orange" data-process-id="ciclo-leads"
              onClick={onProcessClick}>
           GERENCIAR CICLO DE VIDA DE LEADS
         </div>
-        <div className="process-box" data-process-id="vendas-seguranca-trabalho"
+        <div className="process-box box-darker-orange" data-process-id="vendas-seguranca-trabalho"
              onClick={onProcessClick}>
           GERENCIAR VENDAS SEGURANÇA NO TRABALHO
         </div>
@@ -28,7 +28,7 @@ const BusinessProcesses: React.FC<BusinessProcessesProps> = ({ onProcessClick })
         </div>
       </div>
       <div className="full-width-parallel-process">
-        <div className="process-box" data-process-id="voz-cliente"
+        <div className="process-box box-darker-orange" data-process-id="voz-cliente"
              onClick={onProcessClick}>
           GERENCIAR VOZ DO CLIENTE
         </div>
